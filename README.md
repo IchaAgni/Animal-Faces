@@ -42,7 +42,7 @@ Menggunakan `image_dataset_from_directory` dari TensorFlow.
 
 ### 3. 🔍 Visualisasi Dataset
 Menampilkan contoh gambar dari setiap kelas untuk mengecek kualitas data dan distribusi kelas.
-![Output](https://link-ke-gambar-akurasi.png)
+![Output](https://github.com/IchaAgni/Animal-Faces/blob/main/output.png)
 
 ### 4. 🔁 Augmentasi Data
 Menggunakan teknik augmentasi citra dengan:
@@ -92,9 +92,9 @@ model_checkpoint = ModelCheckpoint('best_model.h5', save_best_only=True)
 ### 7. 📈 Evaluasi & Visualisasi Model
 1. Akurasi Validasi Tertinggi: ~98%
 2. Loss Validasi: Stabil dan menurun
- ![Accuracy & Loss](https://link-ke-gambar-akurasi.png)
+ ![Accuracy & Loss](https://github.com/IchaAgni/Animal-Faces/blob/main/accuracy.png)
 3. Confusion Matrix
-![Confussion-Matrick](https://link-ke-gambar-akurasi.png)
+![Confussion-Matrick](https://github.com/IchaAgni/Animal-Faces/blob/main/CM.png)
 5. Classification Report
 ```text
 
