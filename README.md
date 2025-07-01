@@ -92,14 +92,14 @@ model_checkpoint = ModelCheckpoint('best_model.h5', save_best_only=True)
 ### 7. 📈 Evaluasi & Visualisasi Model
 1. Akurasi Validasi Tertinggi: ~98%
 2. Loss Validasi: Stabil dan menurun
- ![Accuracy & Loss](https://github.com/IchaAgni/Animal-Faces/blob/main/accuracy.png)
+![Accuracy & Loss](https://github.com/IchaAgni/Animal-Faces/blob/main/accuracy.png)
 - Accuracy rate: 99.00%
 - Validation accuracy rate: 98.57%
-
-4. Confusion Matrix
+  
+3. Confusion Matrix
 ![Confussion-Matrick](https://github.com/IchaAgni/Animal-Faces/blob/main/CM.png)
 
-5. Classification Report
+4. Classification Report
 ```text
 
               precision    recall  f1-score   support
