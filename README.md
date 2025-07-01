@@ -8,18 +8,23 @@ Proyek ini menggunakan dataset [Animal Faces](https://www.kaggle.com/datasets/al
 - 🐯 **Wild**
 
 Model yang dikembangkan menggunakan pendekatan **transfer learning** dengan arsitektur **MobileNetV2**, karena sifatnya yang ringan namun tetap memberikan akurasi tinggi dibanding model lain seperti ResNet50 dan VGG16.
+
 ---
 
 ## 📂 Struktur Folder
 animal_faces/
-├── cat/
-├── dog/
-└── wild/
+  
+  ├── cat/
+  
+  ├── dog/
+  
+  └── wild/
 
 Setiap folder berisi gambar wajah hewan berdasarkan kelas.
+
 ---
 
-## 🛠️ Langkah-langkah Proyek
+## 🛠️ Langkah-Langkah Proyek
 
 ### 1. 📦 Import Library
 Menggunakan library:
@@ -102,6 +107,7 @@ model_checkpoint = ModelCheckpoint('best_model.h5', save_best_only=True)
     accuracy                         0.9894      2358
    macro avg     0.9894    0.9893    0.9893      2358
 weighted avg     0.9894    0.9894    0.9894      2358
+```
 
 ---
 
