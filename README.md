@@ -97,9 +97,11 @@ model_checkpoint = ModelCheckpoint('best_model.h5', save_best_only=True)
 - Validation accuracy rate: 98.57%
   
 3. Confusion Matrix
+
+   
 ![Confussion-Matrick](https://github.com/IchaAgni/Animal-Faces/blob/main/CM.png)
 
-4. Classification Report
+5. Classification Report
 ```text
 
               precision    recall  f1-score   support
